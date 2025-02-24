@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(goat.jpg);
+    background-size: 100%;
+}
+
+h1{
+    color: whitesmoke;
+}
+
+div {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 10px;
+}
+.csapat {
+    border: 1px solid #ccccccf6;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    background-color: #f9f9f9;
+}
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
