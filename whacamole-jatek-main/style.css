@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(mariobck.avif);
+}
+h1
+{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(7, 6, 6);
+    padding: 10px;
+}
+p{
+    color: rgb(255, 253, 253);
+    text-align: center;
+    font-size: 15px;
+}
+header div{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: 50px;
+    gap:20px;
+    justify-content: center;
+    grid-template-rows: repeat(4, 100px);
+padding: 30px;
+}
+.negyzet{
+    transition: 0.3s;
+    background-image: url(4-0.jpg);
+    background-size: 125%;
+    background-position:center ;
+
+}
+.negyzet:hover{
+    background-color: red;
+}
+aside{
+    color: rgb(12, 11, 11);
+    background-color: rgb(97, 87, 87);
+    color:whitesmoke ;
+    width: 30%;
+}
+.cel{
+    background-color: rgb(169, 192, 40);
+ 
+      background-image: url(barca\ real\ 52.jpg);
+      background-size: 125%;
+      background-position:center ;
+
+}
