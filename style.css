@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkred;
+}
+
+ul li a{
+    text-decoration: none;
+}
